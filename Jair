@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Yamibaf - Postres Caseros</title>
+
+    <style>
+
+        body {
+
+            font-family: 'Segoe UI', sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #fff7f0;
+
+            color: #333;
+
+        }
+
+        header {
+
+            background-color: #55aabb;
+
+            padding: 30px 20px 20px;
+
+            text-align: center;
+
+        }
+
+        header img {
+
+            max-width: 120px;
+
+            margin-bottom: 10px;
+
+        }
+
+        header h1 {
+
+            margin: 0;
+
+            font-size: 2.5em;
+
+        }
+
+        header p {
+
+            font-size: 1.2em;
+
+            margin-top: 5px;
+
+        }
+
+        .bienvenida {
+
+            font-size: 1.5em;
+
+            font-weight: bold;
+
+            margin-bottom: 10px;
+
+        }
+
+        nav {
+
+            background-color: #5544aa;
+
+            padding: 10px;
+
+            text-align: center;
+
+        }
+
+        nav a {
+
+            margin: 0 20px;
+
+            text-decoration: none;
+
+            color: #5d3a3a;
+
+            font-weight: bold;
+
+            font-size: 1.1em;
+
+        }
+
+        .contenido {
+
+            padding: 30px;
+
+            text-align: center;
+
+        }
+
+        .postres {
+display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+            gap: 20px;
+
+            margin-top: 30px;
+
+        }
+
+        .postre {
+
+            background-color: #fff0f5;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+        }
+
+        .postre img {
+
+            max-width: 100%;
+
+            border-radius: 8px;
+
+        }
+
+        .postre h2 {
+
+            margin-top: 15px;
+
+            color: #cc99aa;
+
+        }
+
+        .precio {
+
+            font-weight: bold;
+
+            color: #b33a3a;
+
+        }
+
+        section {
+
+            padding: 40px 20px;
+
+            background-color: #fff0f5;
+
+            margin: 20px auto;
+
+            max-width: 900px;
+border-radius: 10px;
+
+        }
+
+        footer {
+
+            background-color: #ffeeee;
+
+            text-align: center;
+
+            padding: 15px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+ 
+
+   
+
+   
+
+       
+
+        <div class="bienvenida">Bienvenidos a:</div>
+
+        <h1>YAMIBAF</h1>
+
+        <p>"Haz de cada día un festín dulce"</p>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYo7gAMUgbvzZm_aF0qpUpcId6nmyo_ma0Ag&s"
+
+    </header>
+
+</head>
+
+
+
+    <nav>
+
+        <a href="#catalogo">Catálogo</a>
+
+        <a href="#pedidos">Pedidos</a>
+
+        <a href="#contacto">Contacto</a>
+
+         <a href="#comentario">Comentario</a>
+
+         
+
+    </nav>
+
+    <div class="contenido" id="catalogo">
+
+        <h1>Postres Deliciosos</h1>
+
+        <div class="postres">
+
+            
+
+            <div class="postre">
+
+                <img src=https://panoli.mx/cdn/shop/files/GreenBrownMinimalistShieldHandLogo_4.png?v=1726083645
+                <h2>Tarta de Frutas</h2>
+
+                <p>Tarta fresca con una variedad de frutas de temporada sobre una base crujiente.</p>
+</div>
+
+            <div class="postre">
+
+                <img src="https://www.hola.com/horizon/landscape/64c21cd97107-tarta-horno-queso-t.jpg?im=Resize=(640),type=downsize" alt="Cheesecake Clásico">
+
+                <h2>Cheesecake Clásico</h2>
+
+                <p>Un cheesecake suave y cremoso, perfecto para cualquier ocasión.</p>
+
+            </div>
+
+            <div class="postre">
+
+                <img src="https://www.rebanando.com/media/brownie-con-nueces-2_crop.jpg/rh/brownie-con-nueces.jpg" alt="Brownie con Nueces">
+
+                <h2>Brownie con Nueces</h2>
+
+                <p>Un brownie denso y fudgy, lleno de nueces y cubierto con chocolate derretido.</p>
+
+            </div>
+
+            <div class="postre">
+
+            <img src="https://www.azucardominomex.com/sites/azucardominomex_com/files/styles/m/public/2022-09/600x336_PASTEL-DE-CHOCOLATE-BRUCE.jpg.webp?itok=1xSHaWTo" alt="Pastel de Chocolate">
+
+            <h2>Pastel de Chocolate</h2>
+
+            <p>Un delicioso pastel de chocolate con cobertura cremosa y trozos de chocolate.</p>
+
+    </div>
+
+   </header>  <section>
+
+    <h2>Ubicación del local</h2>
+
+    <p>San Nicolás Guadalupe, San Felipe del Progreso<br>Frente a la Preparatoria Oficial Número 246</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15057.842087479577!2d-99.9791425!3d19.7305504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d29fa60f14895b%3A0x1ae8d9b3b65fda34!2sPreparatoria%20Oficial%20246!5e0!3m2!1ses!2smx!4v1717858917991!5m2!1ses!2smx" allowfullscreen="" loading="lazy"></iframe>
+
+    <br>
+
+    <a class="btn-maps" href="https://www.google.com/maps/dir/?api=1&destination=Preparatoria+Oficial+246,+San+Nicol%C3%A1s+Guadalupe,+San+Felipe+del+Progreso,+M%C3%A9xico" target="_blank">Cómo llegar</a>
+
+  </section>  
+
+<section>
+
+    <section id="pedidos">
+
+        <h2>Realiza tu Pedido</h2>
+<p>
+
+            <a href="file:///C:/Users/Admin/Desktop/formulario.html" target="_blank">Da clic aquí para hacer tu pedido</a>
+
+        </p>
+
+    </section>
+
+
+    <section id="contacto">
+
+        <h2>Contacto</h2>
+
+        <p>WhatsApp: +52 72023832428</p>
+
+        <p>Instagram: @delicias_yamibaff</p>
+
+        <p>Facebook: Postres Yamibaff</p>
+
+    </section>
+
+  <title>Caja de Comentarios</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 20px;
+
+        }
+
+        .comentarios {
+
+            border: 1px solid #ccc;
+
+            padding: 10px;
+
+            border-radius: 5px;
+
+            max-width: 600px;
+
+        }
+
+        .comentario {
+margin-bottom: 10px;
+
+            padding: 5px;
+
+            border-bottom: 1px solid #eee;
+
+        }
+
+        textarea {
+
+            width: 100%;
+
+            height: 100px;
+
+            margin-bottom: 10px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h2>Comentarios</h2>
+
+<div class="comentarios">
+
+    <!-- Aquí se mostrarán los comentarios -->
+
+</div>
+
+<form id="form-comentario">
+
+    <textarea id="texto-comentario" placeholder="Escribe tu comentario aquí..."></textarea>
+
+    <button type="submit">Enviar Comentario</button>
+
+</form>
+
+<script>
+
+    const formComentario = document.getElementById('form-comentario');
+
+    const textoComentario = document.getElementById('texto-comentario');
+
+    const comentariosDiv = document.querySelector('.comentarios');
+
+    formComentario.addEventListener('submit', function(event) {
+
+        event.preventDefault(); // Evita que el formulario se envíe de la manera tradicional
+
+        // Crea un nuevo elemento para el comentario
+
+        const nuevoComentario = document.createElement('div');
+nuevoComentario.classList.add('comentario');
+        nuevoComentario.textContent = textoComentario.value;
+
+        // Agrega el nuevo comentario a la lista
+        comentariosDiv.appendChild(nuevoComentario);
+
+        // Limpia el campo de texto
+        textoComentario.value = '';
+    });
+</script>
+    <footer>
+        <p>&copy; 2025 Yamibaf - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
